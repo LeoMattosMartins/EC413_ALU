@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MattosMartins_Leonardo_Lab4.srcs/sources_1/new/ALU_behavioral.v" \
+"../../../../MattosMartins_Leonardo_Lab4.srcs/sources_1/new/FA.v" \
+"../../../../MattosMartins_Leonardo_Lab4.srcs/sources_1/new/Nbit_ALU.v" \
+"../../../../MattosMartins_Leonardo_Lab4.srcs/sources_1/new/Nbit_ALU_Register.v" \
+"../../../../MattosMartins_Leonardo_Lab4.srcs/sources_1/new/Nbit_Register.v" \
+"../../../../MattosMartins_Leonardo_Lab4.srcs/sources_1/new/bitSlice.v" \
+"../../../../MattosMartins_Leonardo_Lab4.srcs/sources_1/new/dff.v" \
+"../../../../MattosMartins_Leonardo_Lab4.srcs/sim_1/new/Nbit_ALU_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
